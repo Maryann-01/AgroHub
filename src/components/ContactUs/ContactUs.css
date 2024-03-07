@@ -1,0 +1,59 @@
+.contact-us{
+    margin-top:20px; 
+}
+.contact-form{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+gap:3vh;
+    
+}
+.contact-pg{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    gap:4vh;
+}
+.contact-pg-header{
+    text-align: center;
+}
+.contact-pg-header>h3{
+    font-family: Poppins;
+font-size: 4vw;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: -0.04em;
+text-align: center;
+color: #0B0B0B;
+}
+.contact-pg-header>p{
+   color: #979DA0;
+   font-family: Roboto;
+font-size: 1.1vw;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+width:23vw;
+}
+.fname,.lname,.mail,textarea{
+    display:flex;
+    flex-direction: column;
+}
+textarea{
+    height:30vh;
+    width:30vw;
+    background-color:  #EFF0F1;
+    border:none;
+    outline:none;
+    padding:10px;
+}
+.fname label,.lname label,.mail label,.txtArea label{
+    font-family: Roboto;
+font-size: 13px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+
+}

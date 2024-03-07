@@ -1,0 +1,86 @@
+.home-body{
+    background: url("../../images/Home-bg.png");
+    text-align: center;
+   height:70vh;
+   align-items: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap:0.1vh;
+}
+.home-body h3{
+    color:white;
+    font-family: Roboto;
+font-size: 55px;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0em;
+text-align: center;
+width:50%;
+margin-bottom: 20px;
+}
+.home-body button{
+    background-color: #006400;
+    border-radius: 8px;
+    color:white;
+    border:none;
+    outline: none;
+    padding:2vh 1.2vw;
+    width:20vw;
+    margin-bottom:40px ;
+}
+.home-body button span{
+    font-family: Roboto;
+font-size: 1.5vw;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.feat-main{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.7vw;
+    
+}
+.feat-div{
+    display:flex;
+    flex-direction: row;
+gap:1.5vw;
+}
+.feat-div img{
+    width:40px;
+    height:40px;
+}
+.feat-text h3{
+    font-family: Roboto;
+font-size: 2.3vw;
+font-weight: 500;
+
+}
+.feature-par{
+    color: #08B208;
+font-size: 1.5vw;
+width:25vw;
+font-family: Roboto;
+font-weight: 400;
+line-height: 28px;
+
+
+}
+.feat h2{
+    color: #08B208;
+    font-family: Roboto;
+font-size: 60px;
+font-weight: 500;
+margin:20px 0;
+letter-spacing: 0em;
+text-align: center;
+
+}
+.teams-container{
+    background-color: #E6E6E6;
+}

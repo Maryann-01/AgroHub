@@ -1,0 +1,61 @@
+.theTeam{
+margin:20px 30px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.theTeam h1{
+    align-self: flex-start;
+    padding-left: 100px;
+    margin:20px 0;
+}
+.lastFive,.firstFive{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* gap:3.5vw; */
+}
+.firstFive{
+    gap:3.5vw;
+   
+}
+.lastFive{
+    gap:3.5vw;
+}
+.firstFive>div{
+    color:#08B208;
+    background-color: white;
+    box-shadow: 0px 4px 15px 0px #00000040;
+    /* padding:30px; */
+    width:13vw;
+    height:30vh;
+    font-weight: 400;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding:0 10px;
+}
+.lastFive>div{
+    background-color: #006400;
+    color:white;
+    box-shadow: 0px 4px 15px 0px #00000040;
+    height:30vh;
+    text-align: center;
+    justify-content: center;
+    width:13vw;
+    font-weight: 400;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+   padding:0 10px;
+   margin-bottom: 30px;
+}
+.allTeams{
+    display:flex;
+    flex-direction: column;
+    gap:2vh;
+    align-items: center;
+}

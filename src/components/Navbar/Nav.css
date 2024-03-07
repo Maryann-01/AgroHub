@@ -1,0 +1,45 @@
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-div{
+    display:flex;
+    gap:3vw;
+    align-items: center;
+}
+.nav-items,.nav-items .link{
+    display:flex;
+    gap:6vw;
+    color:#131200;
+    font-weight: 300;
+}
+.nav-items p{
+    font-size: 1.4vw;
+}
+
+.btn-div h4{
+    color: #006400;
+}
+.btn-div button{
+    background-color:  #006400;
+    color:white;
+    border-radius: 8px;
+    padding: 16px 14px;
+    outline: none;
+    height:40px;
+    border:none;
+    display: flex;
+    align-items: center;
+}
+.login-link{
+    text-decoration: none;
+    color: #006400;
+}
+.link{
+    text-decoration: none;
+}
+.btn-span{
+    font-family: Roboto;
+    text-align: center;
+}
