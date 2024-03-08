@@ -3,8 +3,8 @@ import React from 'react'
 const team =[
     {
         id:0,
-    name:"KORIE CHIBUZOR VICTOR",
-    regNo:20192169233
+        name:"KORIE CHIBUZOR VICTOR",
+        regNo:20192169233
     },
     {
         id:1,

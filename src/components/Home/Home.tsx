@@ -24,7 +24,7 @@ const Home = () => {
         {
             id:2,
             heading:"Customer Service",
-            text:"AgriSupply has a team that are up daily to receive your orders and distribute at all times.",
+            text:"AgriSupply customer care is reliable at all times.",
             img:userCheck
         }
     ]

@@ -49,7 +49,7 @@ text-align: left;
 .feat-div{
     display:flex;
     flex-direction: row;
-gap:1.5vw;
+    gap:1.5vw;
 }
 .feat-div img{
     width:40px;
@@ -57,8 +57,8 @@ gap:1.5vw;
 }
 .feat-text h3{
     font-family: Roboto;
-font-size: 2.3vw;
-font-weight: 500;
+    font-size: 2.3vw;
+    font-weight: 500;
 
 }
 .feature-par{
@@ -83,4 +83,38 @@ text-align: center;
 }
 .teams-container{
     background-color: #E6E6E6;
+}
+
+@media screen and (max-width: 768px) {
+    .home-body h3{
+    font-size: 40px;
+    line-height: 55px;
+    }
+    .feat h2{
+        font-size: 50px;
+    }
+    .feat-main{
+        gap:1.4vw;
+        
+    }
+    .feat-div{
+        gap:1.2vw;
+    }
+    .feat-div img{
+        width:15px;
+        height:15px;
+    }
+    .feat-text h3{
+        font-family: Roboto;
+        font-size: 2.3vw;
+        font-weight: 500;
+    
+    }
+    .feature-par{
+    line-height: 20px;
+    }
+    .home-body button span{
+    font-size: 2vw;
+    font-weight: 400;
+    }
 }
