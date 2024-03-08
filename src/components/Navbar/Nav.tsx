@@ -13,7 +13,7 @@ const Nav = () => {
         </div>
         <div className='nav-items'>
           <p>Home</p>
-          <p>Products</p>
+          <p><Link to="/products" className='link'>Products</Link></p>
           <p><Link to="/contactUs" className='link'>Contact Us</Link></p>
         </div>
         <div className='btn-div'>

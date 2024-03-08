@@ -1,0 +1,42 @@
+
+.products-header{
+    font-family: Roboto;
+font-size: 40px;
+font-weight: 500;
+line-height: 70px;
+letter-spacing: 0em;
+margin:25px 25px 10px;
+color: #08B208;
+}
+.mainFert-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin:0 20px;
+    
+}
+.fertilizer-div{
+    width:18%;
+    border: 2px solid #006400;
+    margin:1%;
+}
+.fertilizer-div p{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+color: #131200;
+letter-spacing: 0em;
+}
+.fertilizer-div img{
+    width:100%;
+}
+.cartContainer{
+    display:flex;
+    align-items: center;
+   justify-content: space-between;
+   padding:0 3.5px 0 0px;
+}
+.cartContainer img{
+    width:32px;
+    height:32px;
+
+}
