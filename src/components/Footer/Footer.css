@@ -1,0 +1,58 @@
+.foot-one{
+    display:flex;
+    justify-content: space-between;
+   margin:30px 0;
+}
+.foot-OneFirst{
+    padding-left:4vw;
+}
+.foot-oneSecond{
+    padding-right:15vw;
+    display:flex;
+    flex-direction: column;
+    gap:3vh;
+}
+.sm-handles{
+    display:flex;
+    gap:2.6vw;
+}
+.foot-oneSecond h4{
+    font-family: Roboto;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+}
+.foot-oneSecond p{
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+}
+hr{
+    border: 1px solid #888D90;
+    width:95%;
+    margin: 0 auto;
+}
+.foot-two,.footTwo-info{
+    display:flex;
+}
+.foot-two{
+    justify-content: space-between;
+    margin:4.7vh 6vw;
+}
+.footTwo-info{
+    gap:2vw;
+}
+.foot-two p{
+    color: #717678;
+    font-family: Plus Jakarta Display;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    
+}

@@ -6,6 +6,7 @@ import truck from "../../images/truck.png"
 import userCheck from "../../images/user-check.png"
 import cart from "../../images/shopping-cart.png"
 import Team from '../Team/Team'
+import Footer from '../Footer/Footer'
 const Home = () => {
     const features=[
         {
@@ -51,6 +52,9 @@ const Home = () => {
         </div>
         <div className='teams-container'>
             <Team/>
+        </div>
+        <div>
+            <Footer/>
         </div>
     </div>
   )
