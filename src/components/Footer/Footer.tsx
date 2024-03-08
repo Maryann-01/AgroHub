@@ -11,7 +11,7 @@ const Footer = () => {
         <div>
             <div className='foot-one'>
                 <div className='logo foot-OneFirst'>
-                    <img src={tree} alt="logo" />
+                    <img src={tree} alt="logo" className="logo_tree"/>
                     <img src={agri_name} alt="Agri supply" />
                 </div>
                 <div className='foot-oneSecond'>

@@ -56,3 +56,40 @@ hr{
     letter-spacing: 0em;
     
 }
+
+@media screen and (max-width: 768px) {
+    .foot-OneFirst{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    .foot-OneFirst img{
+        width: 150px;
+        height: 30px;
+    }
+    .foot-OneFirst .logo_tree{
+        width: 20px;
+    }
+    .sm-handles{
+        display:flex;
+        gap:2.2vw;
+    }
+    .foot-two{
+        justify-content: space-between;
+        margin:4.7vh 6vw;
+    }
+    .footTwo-info{
+        gap:1.5vw;
+    }
+    .foot-two p{
+        color: #717678;
+        font-family: Plus Jakarta Display;
+        font-size: 8.5px;
+        font-weight: 700;
+        line-height: 18px;
+        letter-spacing: 0em;
+        
+    }
+}

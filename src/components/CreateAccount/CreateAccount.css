@@ -16,3 +16,17 @@
 .logo{
     margin-top:20px;
 }
+
+@media screen and (max-width: 768px) {
+    .createacct-form .input{
+        height:6vh;
+        width:40vw;
+    }
+    .createacct-form label{
+        font-size: 3vw;
+        font-weight: 450;
+    }
+    .login-btn{
+        font-size: 3vw;
+    }
+}
