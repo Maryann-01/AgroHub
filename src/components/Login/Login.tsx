@@ -64,6 +64,9 @@ const Login = () => {
                         </div>
                         <p className="forgot">Forgot password?</p>
                     </div>
+                    <div className='createAcct-div'>
+                        <p>Don’t have an account yet?<span className='createAcct'>Create Account</span> </p>
+                    </div>
                     <button type='submit' className="login-btn">Login</button>
                 </form>
 
