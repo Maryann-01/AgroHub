@@ -18,7 +18,7 @@ const Nav = () => {
         </div>
         <div className='btn-div'>
             <h4><Link to="/login" className='login-link'>Login</Link></h4>
-            <button><span className='btn-span'>Create Account</span></button>
+            <button><Link to ="/createAccount" className='btn-span link'>Create Account</Link></button>
         </div>
     </div>
   )

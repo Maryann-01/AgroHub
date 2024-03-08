@@ -36,7 +36,7 @@ letter-spacing: 0em;
 text-align: center;
 width:23vw;
 }
-.fname,.lname,.mail,textarea{
+.fname,.lname,.mail,textarea,.password{
     display:flex;
     flex-direction: column;
 }
@@ -48,7 +48,7 @@ textarea{
     outline:none;
     padding:10px;
 }
-.fname label,.lname label,.mail label,.txtArea label{
+.fname label,.lname label,.mail label,.txtArea label,.password label{
     font-family: Roboto;
 font-size: 13px;
 font-weight: 600;
