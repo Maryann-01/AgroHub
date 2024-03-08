@@ -87,11 +87,11 @@ text-align: center;
 
 @media screen and (max-width: 768px) {
     .home-body h3{
-    font-size: 40px;
-    line-height: 55px;
+    font-size: 38px;
+    line-height: 45px;
     }
     .feat h2{
-        font-size: 50px;
+        font-size: 38px;
     }
     .feat-main{
         gap:1.4vw;
@@ -111,7 +111,8 @@ text-align: center;
     
     }
     .feature-par{
-    line-height: 20px;
+    line-height: 18px;
+    font-size: 1.3vw;
     }
     .home-body button span{
     font-size: 2vw;
