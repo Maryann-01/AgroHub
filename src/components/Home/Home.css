@@ -86,9 +86,13 @@ text-align: center;
 }
 
 @media screen and (max-width: 768px) {
+    .home-body{
+       height:50vh;
+    }
     .home-body h3{
     font-size: 38px;
     line-height: 45px;
+    width: 90vw;
     }
     .feat h2{
         font-size: 38px;

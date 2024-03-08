@@ -50,12 +50,10 @@
     .navbar .logo{
         display: flex;
         flex-direction: row;
-        align-content: center;
-        justify-content: center;
-        padding-bottom: 7px;
-        
-        /* width: 50px;
-        height: 30px; */
+        align-items: center;
+        /* justify-content: center; */
+        margin-bottom: 9px;
+        margin-right: 3vw;
     }
     .navbar .logo img{
         display: flex;
@@ -75,7 +73,23 @@
         font-weight: 500;
     }
     .nav-items .link{
-        font-size: 1.5vw;
+        font-size: 1.4vw;
         font-weight: 500;
+    }
+    .nav-items,.nav-items .link{
+        gap:2vw;
+
+    }
+    .login-link{
+        font-size: 4vw;
+    }
+    .btn-div button{
+        padding: 12px 10px;
+        outline: none;
+        height:25px;
+        border:none;
+        display: flex;
+        align-items: center;
+        font-size: 2.5vw;
     }
 }
