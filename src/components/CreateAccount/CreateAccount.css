@@ -8,6 +8,11 @@
     flex-direction: column;
     margin-right:60px;
 }
+/* .cpassword{
+    display:flex;
+    flex-direction: column;
+    margin-right:60px;
+} */
 .name-div,.contactinfo-div,.password-container{
     display:flex;
     gap:2vw;
